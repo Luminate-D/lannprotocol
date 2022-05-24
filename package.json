@@ -1,0 +1,22 @@
+{
+  "name": "lannprotocol",
+  "version": "1.0.0",
+  "description": "TCP Based protocol that implements packets exchange between server/client with int32 max size",
+  "main": "./dist/index.js",
+  "typings": "./typings.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luminate-D/lannprotocol.git"
+  },
+  "keywords": [],
+  "author": "Lann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luminate-D/lannprotocol/issues"
+  },
+  "homepage": "https://github.com/Luminate-D/lannprotocol#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}

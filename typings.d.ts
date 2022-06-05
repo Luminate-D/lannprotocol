@@ -19,3 +19,21 @@ export class Server extends EventEmitter {
     public close(): void;
     public listen(port: number): Promise<void>;
 }
+
+declare enum PacketProcessorState {
+    Awaiting, Processing
+}
+
+export class PacketProcessor {
+    private _state: PacketProcessorState;
+    private _buffer: number[];
+    private _size: number;
+
+    public constructor();
+
+    public write(data: Buffer): void;
+
+    public clear(): void;
+
+    public tryGetPacket(): Buffer | null;
+}

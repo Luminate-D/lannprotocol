@@ -1,6 +1,6 @@
 {
   "name": "lannprotocol",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "TCP Based protocol that implements packets exchange between server/client with int32 max size",
   "main": "./dist/index.js",
   "typings": "./typings.d.ts",
